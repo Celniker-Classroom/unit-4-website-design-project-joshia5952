@@ -1,8 +1,10 @@
 /* Add Global styles here */
 body {
-  background-image: url("https://img.spoonflower.com/c/9316150/p/f/m/ecAff4Ug84PSCcHLzrl72wLvYInqx3FAKBlSwj2_jbCb_Y_vYJc_SA/Iowa%20State%20Shape%20Stripes%20Teal%20and%20White%20Stripes.jpg");
+  background-image: url("https://img.spoonflower.com/c/9314976/p/f/m/u6Ws8R52g76UBfmQ8BPTwfLcXrws72l5bBmGnoFRJvFE_FXOX0SdpmaA/Iowa%20State%20Shape%20Stripes%20Dark%20Blue%20and%20White%20Stripes.jpg");
   background-color: aliceblue;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: aliceblue;
+  margin: 0px 0px 0px 0px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar ul{
@@ -27,4 +29,17 @@ body {
 
 .navbar li{
     float: left;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+div.transbox {
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
 }
