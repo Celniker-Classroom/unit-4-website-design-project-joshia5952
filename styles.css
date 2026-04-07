@@ -1,1 +1,30 @@
 /* Add Global styles here */
+body {
+  background-image: url("https://img.spoonflower.com/c/9316150/p/f/m/ecAff4Ug84PSCcHLzrl72wLvYInqx3FAKBlSwj2_jbCb_Y_vYJc_SA/Iowa%20State%20Shape%20Stripes%20Teal%20and%20White%20Stripes.jpg");
+  background-color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.navbar a:hover{
+    background-color:gray;
+}
+
+.navbar li{
+    float: left;
+}
