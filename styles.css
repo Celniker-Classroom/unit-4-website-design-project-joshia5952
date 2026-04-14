@@ -229,3 +229,10 @@ img{
   flex-wrap:nowrap;
 }
 
+img {
+  /* 1. Add a solid border: thickness, style, and color */
+  border: 7.5px solid white; 
+
+  /* 2. Round the corners: use px for soft corners or 50% for a circle */
+  border-radius: 20px; 
+}
