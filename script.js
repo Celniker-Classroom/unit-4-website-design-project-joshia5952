@@ -24,36 +24,42 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  if (slides.length > 0) {
+    slides[slideIndex-1].style.display = "block";
+  }
+  if (dots.length > 0) {
+    dots[slideIndex-1].className += " active";
+  }
 }
+
+
+
+
+
+
+
+
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
-console.log("Modal element:", modal);
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
-console.log("Button element:", btn);
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-console.log("Close span element:", span);
 
 // When the user clicks on the button, open the modal
 if (btn) {
   btn.onclick = function() {
-    console.log("Button clicked, opening modal");
     modal.style.display = "block";
   }
-} else {
-  console.log("ERROR: Button not found!");
 }
 
 // When the user clicks on <span> (x), close the modal
 if (span) {
   span.onclick = function() {
-    console.log("Close clicked, closing modal");
     modal.style.display = "none";
   }
 }
