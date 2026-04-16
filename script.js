@@ -30,21 +30,32 @@ function showSlides(n) {
 
 // Get the modal
 var modal = document.getElementById("myModal");
+console.log("Modal element:", modal);
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
+console.log("Button element:", btn);
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+console.log("Close span element:", span);
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+if (btn) {
+  btn.onclick = function() {
+    console.log("Button clicked, opening modal");
+    modal.style.display = "block";
+  }
+} else {
+  console.log("ERROR: Button not found!");
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+if (span) {
+  span.onclick = function() {
+    console.log("Close clicked, closing modal");
+    modal.style.display = "none";
+  }
 }
 
 // When the user clicks anywhere outside of the modal, close it
