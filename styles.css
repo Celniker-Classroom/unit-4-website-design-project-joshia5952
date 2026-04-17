@@ -15,6 +15,9 @@ body {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    display: flex;
+  gap: 20px;
+    
 }
 .navbar a{
     display: block;
@@ -22,11 +25,14 @@ body {
     padding: 15px;
     text-decoration: none;
     color: aliceblue;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+    
 }
 
 
 .navbar a:hover{
     background-color:gray;
+    transform: scale(1.1);
 }
 
 .navbar li{
@@ -43,7 +49,7 @@ div.transbox {
   backdrop-filter: blur(5px);
   margin: 20px auto;
   padding: 20px;
-  max-width: 1400px;
+  max-width: 1300px;
 }
 
 h3 {
@@ -58,7 +64,7 @@ body {
 }
 
 table { background-color: black;
-color: white; }
+color: white;}
 
 * {
   box-sizing: border-box;
@@ -208,4 +214,26 @@ img {
 
 h1{
   font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  -webkit-text-stroke: .75px white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+button:hover{
+    background-color:rgb(83, 80, 80);
+     transform: scale(1.1);
 }
