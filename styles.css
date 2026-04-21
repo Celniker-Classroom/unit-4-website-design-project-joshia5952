@@ -257,7 +257,7 @@ button:hover{
      transform: scale(1.1);
 }
 
-.p-with-img-container {
+.p-with-img-container, .additional-images {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -271,4 +271,11 @@ iframe{  border: 7.5px solid white;
   border-radius: 10px; 
   width: 100%;
   height: 350px;
+}
+
+.facts ul {
+  display:flex;
+  justify-content: left;
+  flex-wrap:nowrap;
+  flex-direction: column;
 }
