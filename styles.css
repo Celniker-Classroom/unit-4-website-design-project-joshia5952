@@ -53,7 +53,7 @@ div.transbox {
 }
 
 h3 {
-    float: right;
+    display: inline-block;
 }
 
 
@@ -278,4 +278,14 @@ iframe{  border: 7.5px solid white;
   justify-content: left;
   flex-wrap:nowrap;
   flex-direction: column;
+}
+
+h5 {
+  display: inline;
+}
+
+h6, h5 {
+  color: white; 
+  -webkit-text-stroke: .75px white; 
+  font-weight: bold;
 }
