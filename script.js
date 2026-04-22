@@ -1,4 +1,3 @@
-// add javascript here
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -11,7 +10,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+// Displays slideshow
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
