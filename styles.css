@@ -6,6 +6,7 @@ color: aliceblue;
   margin: 0px 0px 0px 0px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 /* Body styles */
 body { 
   margin: 0;
@@ -18,8 +19,9 @@ body {
     overflow: hidden;
     display: flex;
   gap: 20px;
-/* Navbar style */
 }
+
+/* Navbar style */
 .navbar a{
     display: block;
     text-align: center;
@@ -35,14 +37,17 @@ body {
     background-color:gray;
     transform: scale(1.1);
 }
+
 /* navbar placement */
 .navbar li{
     float: left;
 }
+
 /* Heading styles */
 h1 {
     color: aliceblue;
 }
+
 /* Background blur proeprties */
 div.transbox {
   background-color: rgba(0, 0, 0, 0.5);
@@ -52,6 +57,7 @@ div.transbox {
   padding: 20px;
   max-width: 1250px;
 }
+
 /* Heading styles */
 h3 {
     display: inline-block;
@@ -63,13 +69,16 @@ body {
   -webkit-text-stroke: .75px black; 
   font-weight: bold;
 }
+
 /* Table color */
 table { background-color: black;
 color: white;}
+
 /* Alters image sizing */
 * {
   box-sizing: border-box;
 }
+
 /* Container position */
 .container {
   position:fixed;
@@ -80,11 +89,9 @@ color: white;}
   display: none;
 }
 
-
 .cursor {
   cursor: pointer;
 }
-
 
 .prev,.next {
   cursor: pointer;
@@ -102,7 +109,6 @@ color: white;}
 }
 
 /* Image and text properties */
-
 .p-with-img-container {
   display: flex;
   align-items: flex-start;
@@ -147,8 +153,6 @@ color: white;}
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-
 .caption-container {
   text-align: center;
   background-color: #222;
@@ -162,12 +166,10 @@ color: white;}
   clear: both;
 }
 
-
 .column {
   float: left;
   width: 16.66%;
 }
-
 
 .demo {
   opacity: 0.6;
@@ -186,7 +188,6 @@ img{
 }
 
 /* Alters text properties */
-
 .whyiowa{
   display:flex;
   flex-direction:column;
@@ -195,14 +196,11 @@ img{
 }
 
 /* Adds border and rounded corners to images */
-
 img {
   border: 7.5px solid white; 
 
   border-radius: 20px; 
 }
-
-
 
 /* The Modal */
 .modal {
@@ -243,14 +241,12 @@ img {
 }
 
 /* Changes h1 font */
-
 h1{
   font-family: 'Courier New', Courier, monospace;
 }
 
 
 /* Animation and properties for modal button */
-
 button {
   background-color: black;
   border: 2px solid white;
@@ -274,7 +270,6 @@ button:hover{
 }
 
 /* Adjusts placement of text and images on subpages */
-
 .p-with-img-container, .additional-images {
   display: flex;
   align-items: flex-start;
@@ -292,7 +287,6 @@ iframe{  border: 7.5px solid white;
 }
 
 /* Properties for headings and unordered lists */
-
 .facts ul {
   display:flex;
   justify-content: left;
