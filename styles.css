@@ -109,11 +109,24 @@ color: white;}
   gap: 20px;
 }
 
-.p-with-img-container img {
+.p-with-img-container > a {
   flex-shrink: 0;
-  max-width: 45%;
+  width: 45%;
+  display: block;
+}
+
+.p-with-img-container > a img {
+  width: 100% !important;
+  height: auto !important;
   max-height: 550px;
-  height: auto;
+  display: block;
+}
+
+.p-with-img-container > img {
+  flex-shrink: 0;
+  width: 45% !important;
+  height: auto !important;
+  max-height: 550px;
 }
 
 .p-with-img-container h2 {
